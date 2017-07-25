@@ -1,0 +1,13 @@
+/*导航*/
+.navi{height: 130px;background-color: #ffffff;width: 967px;margin:0 auto;}
+.logo{float: left;padding: 20px 0 31px 0;}
+.cs{float:right; padding: 33px 0 27px 0;}
+.clear{padding: 70px 0 60px 0; width: 678px;color: #9a9a9a;margin:0 auto;font-size:15px;}
+a{color: #9a9a9a;}
+
+/*.footer-top-1.footer-top-2.footer-top-3{margin:0 auto}*/
+.poster{width: 100%;}
+.poster img{width: 100%;}
+/*.footer-top-1-1.footer-top-2-2.footer-top-3-3{margin:0 auto;width: 678px;}*/
+.bar{ border-left:2px solid;padding-left: 10px;margin-left: 10px;}
+.footer-top-1 p,.footer-top-2 p,.footer-top-3 p {text-align: center;line-height: 2}

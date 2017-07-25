@@ -1,0 +1,184 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="cache-control" content="no-cache, must-revalidate">
+<meta http-equiv="expires" content="0">
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="format-detection" content="telephone=no"/>
+<meta name="msapplication-tap-highlight" content="no" />
+<link rel="stylesheet" href="css/lib/reset.css" type="text/css">
+<link rel="stylesheet" href="css/lib/swiper.min.css">
+<link rel="stylesheet" href="css/index.css">
+<script src="js/lib/jquery-1.11.0.min.js"></script>
+<script src="js/lib/swiper.min.js"></script>
+<script src="js/index.js"></script>
+<script type="text/javascript">
+//rem自适应字体大小方法
+var docEl = document.documentElement,
+resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+recalc = function() {
+    //设置根字体大小
+    docEl.style.fontSize = 10 * (docEl.clientWidth / 320) + 'px';
+};
+//绑定浏览器缩放与加载时间
+window.addEventListener(resizeEvt, recalc, false);
+document.addEventListener('DOMContentLoaded', recalc, false);
+</script>
+<style>
+  /*公共css*/
+  .pjBlue{color: #20c0fb;}
+
+  footer,footer>ul{width: 100%;height: 5rem;}
+  footer{background: #fff;position: fixed;left: 0;bottom: 0;}
+  footer>ul>li{width: 5rem;height: 5rem;position: absolute;color: #333;font-size: 1rem;}
+  footer>ul>li>span{display:block;width: 2rem;height: 2rem;margin: 1rem 0 0 1.5rem;}
+  footer>ul>li>p{width: 100%;height: 2rem;line-height: 2rem;text-align: center;}
+  footer>ul>li:nth-of-type(1){left: 5%;top:0}
+  footer>ul>li:nth-of-type(2){left: 50%;top:0;margin-left: -2.5rem;}
+  footer>ul>li:nth-of-type(3){right: 5%;top:0}
+  footer>ul>li:nth-of-type(1) .nomarl{background: url(images/icon/navTAb_icon1.png) right center no-repeat;background-size:200% 100%;}
+  footer>ul>li:nth-of-type(2) .nomarl{background: url(images/icon/navTAb_icon2.png) right center no-repeat;background-size:200% 100%;}
+  footer>ul>li:nth-of-type(3) .nomarl{background: url(images/icon/navTAb_icon3.png) right center no-repeat;background-size:200% 100%;}
+  footer>ul>li:nth-of-type(1) .checked{background: url(images/icon/navTAb_icon1.png) left center no-repeat;background-size:200% 100%;}
+  footer>ul>li:nth-of-type(2) .checked{background: url(images/icon/navTAb_icon2.png) left center no-repeat;background-size:200% 100%;}
+  footer>ul>li:nth-of-type(3) .checked{background: url(images/icon/navTAb_icon3.png) left center no-repeat;background-size:200% 100%;}
+</style>
+<title>首页</title>
+</head>
+<body class="l_NewScroll">
+<section class="wrapper">
+		<section class="content l_NewScroll">
+			<header class="header">
+				<div class="swiper-container">
+			        <div class="swiper-wrapper">
+			            <div class="swiper-slide" data-hash="slide1">
+			            	<a href=""><img src="images/indexBanner.png" alt=""></a>
+			            </div>
+			            <div class="swiper-slide" data-hash="slide2">
+			            	<a href=""><img src="images/indexBanner.png" alt=""></a>
+			            </div>
+			            <div class="swiper-slide" data-hash="slide3">
+			            	<a href=""><img src="images/indexBanner.png" alt=""></a>
+			            </div>
+			        </div>
+			        <!-- Add Pagination -->
+			        <div class="swiper-pagination"></div>
+			        <!-- Add Arrows -->
+			    </div>
+			    
+			    <div class="title">
+			    	<p class="horn">
+			    		<img src="images/icon/horn.png" alt="">
+			    	</p>
+			    	<p class="text-overflow copy">
+			    		羊倌羊呀嘿羊倌羊，喜羊羊 美羊羊 懒洋洋羊倌羊呀嘿羊倌羊，喜羊羊 美羊羊 懒洋洋
+			    	</p>
+			    	<p class="time">
+			    		2016-12-16
+			    	</p>
+			    </div>
+			    <div class="other">
+			    	<dl>
+			    		<dd>
+			    			<img src="images/lamb.png" alt="">
+			    		</dd>
+			    		<dt>精选优质羔羊</dt>
+			    	</dl>
+			    	<dl>
+			    		<dd>
+			    			<img src="images/object.png" alt="">
+			    		</dd>
+			    		<dt>政府扶持项目</dt>
+			    	</dl>
+			    	<dl>
+			    		<dd>
+			    			<img src="images/partner.png" alt="">
+			    		</dd>
+			    		<dt>专业合作伙伴</dt>
+			    	</dl>
+			    </div>
+			</header>
+			<div class="w_knowBanner">
+				<a href="#" class="indexBan">
+					<img src="images/indexBanner2.png" alt="">
+				</a>
+				<p class="heading">
+					<span>精选牧场</span>
+				</p>
+			</div>
+			<div class="item_list">
+				<dl class="sheep">
+					<dd class="head text-overflow">第003期－精选－育肥羊20只，按月分红</dd>
+					<dt class="condition">
+						<p class="Each">
+							<span><i>4000</i></span>
+							<span>每只/元</span>
+						</p>
+						<p class="months">
+							<span><i>6</i>个月</span>
+							<span>交付时间</span>
+						</p>
+						<p class="AdoptBtn">
+							<span>
+								立即购买
+							</span>
+						</p>
+					</dt>
+				</dl>
+				<dl class="sheep">
+					<dd class="head text-overflow">第003期－精选－育肥羊20只，按月分红</dd>
+					<dt class="condition">
+						<p class="Each">
+							<span><i>4000</i></span>
+							<span>每只/元</span>
+						</p>
+						<p class="months">
+							<span><i>6</i>个月</span>
+							<span>交付时间</span>
+						</p>
+						<p class="AdoptBtn">
+							<span class="sellOut"><!--   class="sellOut" 已售罄 -->
+								立即购买
+							</span>
+						</p>
+					</dt>
+				</dl>
+			</div>
+		</section>
+	</section>
+</section>
+<footer>
+  <ul>
+    <li>
+      <span class="nomarl checked"></span>
+      <p class="pjBlue">首页</p>
+    </li>
+    <li>
+      <span class="nomarl"></span>
+      <p>牧场</p>
+    </li>
+    <li>
+      <span class="nomarl"></span>
+      <p>我的</p>
+    </li>
+  </ul>
+</footer>
+<script type="text/javascript">
+  $(function() {
+    function navTab(el) {
+      el.children("span").addClass("checked").siblings("p").addClass("pjBlue");
+      el.siblings().children("span").removeClass("checked").siblings("p").removeClass("pjBlue");;
+    }
+    $("footer li").on("touchend",function () {
+        navTab($(this));
+    })
+  })
+</script>
+</body>
+</html>

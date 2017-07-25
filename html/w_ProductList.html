@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="cache-control" content="no-cache, must-revalidate">
+<meta http-equiv="expires" content="0">
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="format-detection" content="telephone=no"/>
+<meta name="msapplication-tap-highlight" content="no" />
+<link rel="stylesheet" href="css/lib/reset.css" type="text/css">
+<link rel="stylesheet" href="css/ProductList.css">
+<script src="js/lib/jquery-1.11.0.min.js"></script>
+<script src="js/ProductList.js"></script>
+<script type="text/javascript">
+//rem自适应字体大小方法
+var docEl = document.documentElement,
+resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+recalc = function() {
+    //设置根字体大小
+    docEl.style.fontSize = 10 * (docEl.clientWidth / 320) + 'px';
+};
+//绑定浏览器缩放与加载时间
+window.addEventListener(resizeEvt, recalc, false);
+document.addEventListener('DOMContentLoaded', recalc, false);
+</script>
+<title>首页</title>
+</head>
+<body class="l_NewScroll">
+<section class="wrapper">
+	<section class="content l_NewScroll">
+		<div class="item_list">
+			<dl class="sheep">
+				<dd class="head text-overflow">第003期－精选－育肥羊20只，按月分红</dd>
+				<dt class="condition">
+					<p class="Each">
+						<span><i>4000</i></span>
+						<span>每只/元</span>
+					</p>
+					<p class="months">
+						<span><i>6</i>个月</span>
+						<span>交付时间</span>
+					</p>
+					<p class="AdoptBtn">
+						<span>
+							立即购买
+						</span>
+					</p>
+				</dt>
+			</dl>
+			<dl class="sheep">
+				<dd class="head text-overflow">第003期－精选－育肥羊20只，按月分红</dd>
+				<dt class="condition">
+					<p class="Each">
+						<span><i>4000</i></span>
+						<span>每只/元</span>
+					</p>
+					<p class="months">
+						<span><i>6</i>个月</span>
+						<span>交付时间</span>
+					</p>
+					<p class="AdoptBtn">
+						<span class="sellOut"><!--   class="sellOut" 已售罄 -->
+							立即购买
+						</span>
+					</p>
+				</dt>
+			</dl>
+			<div class="error_info"><!--  没有产品的时候，显示此盒子  -->
+				<div class="imgBox">
+					<img src="images/empty.png" alt="">
+				</div>
+				<p>紧张挑选优质羊只中，再等一下下啦</p>
+			</div>
+		</div>			
+	</section>
+</section>
+</body>
+</html>

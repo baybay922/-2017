@@ -1,0 +1,53 @@
+
+/*!
+ * ProductList.css v1.0.0
+ * producer:bayaby
+ * Date: 2017-2-22 14:36;
+ * Modification personnel：~
+ * Modified time：~
+ */
+
+body,html{width: 100%;height: 100%;position: relative;}
+.wrapper,.content{width:100%;height:auto;position:relative}
+.item_list{width: 90%;height: auto;margin: 0 auto;}
+.item_list dl:first-child{margin-top: 2rem;}
+.sheep{width: 100%;height: auto;border-radius: 10px;-moz-box-shadow:0px 1px 10px #ccc; -webkit-box-shadow:0px 1px 10px #ccc; box-shadow:0px 1px 10px #ccc;margin-bottom: 2rem;}
+.head{width: 90%;margin: 0 auto;height: 3rem;line-height: 3rem;font-size: 1.2rem;color: #333;border-bottom: 1px solid #dcdcdc;}
+.condition{width: 90%;height: auto;margin: 0 auto;padding: .5rem 0;display: -webkit-flex;justify-content: space-between;}
+.condition p{width: 33.3333%;}
+.condition p span{display: block;text-align: center;line-height: 2rem;}
+.condition p span:nth-child(2){color: #999;}
+.condition p span i{font-size: 1.6rem;color: #666;}
+.imgBox{width: 80%;height: auto;text-align: center;margin-left: 1rem;}
+.imgBox img{width: 100%;height: 100%;}
+.other{	width: 100%;height: auto;display: -webkit-flex;justify-content: space-around;background: #fafafa;padding: 1rem 0;}
+.other dl dd{width: 60%;height: auto;margin: 0 auto;}
+.other dl dd img{width: 100%;height: 100%;}
+.other dl dt{text-align: center;font-size: 1rem;margin-top: .2rem;}
+.AdoptBtn{display: -webkit-flex;display: flex;-webkit-align-items: center;align-items: center;-webkit-justify-content: center;justify-content: center;position: relative;}
+.AdoptBtn span{color: #20c0fb;border:1px solid #20c0fb;border-radius: 3px;padding: 0rem .5rem;float: right;position: absolute;right: 0;}
+.Each span{text-align: left!important;}
+.sellOut{border:1px solid #999!important;color: #999!important;}
+
+.error_info{width: 100%;text-align: center;font-size: 1.2rem; display: none;}
+.imgBox{width: 50%;	height: auto;margin: 2rem auto .5rem;}
+.imgBox img{width: 100%;height: auto;}
+.back{width: 90%;display: block;height: 3rem;line-height: 3rem;	background: #20c0fc;margin: 8rem auto 0;border-radius: 2px;	text-align: center;	color: #fff;text-decoration: none;font-size: 1.2rem;}
+.card_info{width: 100%;	height: auto;margin-top: 2rem;}
+.card_info li{width: 100%;	height: 3rem;line-height: 3rem;	display: -webkit-flex;	font-size: 1.2rem;justify-content: space-between;border-top: 1px solid #f2f2f2;}
+.card_info li p{margin: 0 1rem;color: #333;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

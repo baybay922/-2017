@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+/*公共css*/
+.pjBlue{color: #20c0fb;}
+.pjBBlue{background: #20c0fb;color: #fff;border-radius: 2px;}
+.pjTip{color: #b0d3fb;}
+.pjWrong{color: #ff982b;}
+/*个人设置页css*/
+body,html{background: #f2f4f4;}
+header{width: 100%;height: 14rem;line-height: 5rem;color: #333;font-size: 1.6rem;text-align: center;position: relative;}
+header img{width: 40%;margin-top: 2rem;}
+header::after{content: "恭喜您，购买成功 !";position: absolute;bottom: 2rem;left: 0;width: 100%;height: 2rem;line-height: 2rem;font-size: 1.2rem;}
+section,section>ul{width: 100%;height: auto;background: #fff;}
+.l_fstBox>ul>li{width: 100%;height: 4rem;line-height: 4rem;font-size: 1.2rem;color: #e86200;border-bottom: solid 1px #f2f2f2;padding: 0 5%;text-align: right;position: relative;box-sizing: border-box;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;}
+.l_fstBox>ul>li:nth-of-type(1){padding: 0 5% 0 40%;color: #999;}
+.l_fstBox>ul>li::before{content: "";position: absolute;width: 8rem;height: 2rem;line-height: 2rem;font-size: 1.2rem;color: #666;text-align: left;left: 5%;top: 1rem;}
+.l_fstBox>ul>li:nth-of-type(1)::before{content: "产品名称"}
+.l_fstBox>ul>li:nth-of-type(2)::before{content: "领养期限"}
+.l_fstBox>ul>li:nth-of-type(3)::before{content: "领养数量"}
+.l_fstBox>ul>li:nth-of-type(4)::before{content: "订单金额 "}
+.l_secBox{margin-top: 6rem;position: relative;display: inline-block;}
+.l_secBox::before{content: "";position: absolute;top: -2rem;left: 50%;margin-left: -2rem;width: 4rem;height: 4rem;border-radius:100%;background: #fff url(../images/icon/sheepSuc_icon01.png) center no-repeat;background-size: 2rem;box-shadow: 0 5px 10px -2px #20c0fb;}
+.l_secTitle{width: 100%;height: 5rem;line-height: 5rem;position: relative;margin-top: 2rem;}
+.l_secTitle>span{width: 10rem;font-size: 1.4rem;display: block;margin: 0 auto;text-align: center;}
+.l_secTitle::after,.l_secTitle::before{content: "";position: absolute;top: 50%;width: 20%;height: 1px;background: #dedede;}
+.l_secTitle::before{left: 50%;margin-left: -12rem;}
+.l_secTitle::after{right: 50%;margin-right: -12rem;}
+.l_chooseTip{width: 90%;margin: 0 0 1rem 5%;color: #333;}
+.l_chooseTip>span{color:#ff5e61; }
+.l_secBox>ul{position: relative;height: 6rem;transition: height ease 0.5s;}
+.l_secBox>ul>li{width: 90%;height: 3rem;margin-left: 5%;line-height: 3rem;padding-left: 2rem;box-sizing: border-box;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;position: relative;}
+.l_secBox>ul>li:nth-last-of-type(1){height: auto;display: none;}
+.l_secBox>ul>li:nth-last-of-type(1)>span{display: block;line-height: 2rem;color: #ff5e61;}
+.l_unckeck::before{content: "";width: 1.2rem;height: 1.2rem;position: absolute;left: 0;top: 0.9rem;border: solid 1px #20c0fb;border-radius: 2px;}
+.l_checked::before{background: url(../images/icon/icon_check2.png) center no-repeat #20c0fb; background-size: 1rem;}
+.l_secBox>ul>a{position: absolute;top: 4rem;right: 5%;}
+button{width: 90%;line-height: 4rem;font-size: 1.4rem;margin: 10% 0 5% 5%;letter-spacing: .8rem;text-indent: .8rem;}
+/*button+a{display: block;width: 40%;text-align: center;height: 2rem;line-height: 2rem;margin:0 0 10% 30%;}*/
+.l_mask{width: 100%;height: 100%;position: fixed;top:0;left: 0;background: rgba(0,0,0,0.4);}
+.l_mask>ul{width: 80%;height: auto;padding-bottom: 4rem;background: #fff;border-radius: 8px;position: absolute;top: 38%;left: 10%;margin-top: -5rem;}
+.l_mask>ul>li>p{width: 90%;margin: auto;height: auto;line-height: 2rem;/* overflow: hidden; */}
+.l_mask>ul>li>p>span{color: #ff5e61;float: right;width: calc(100% - 6rem);}
+.l_mask>ul>li>p:first-of-type{text-align: center;height: 3rem;line-height: 4rem;font-size: 1.2rem;margin-bottom: 1rem;}
+#nextPage{width: 100%;height: 3rem;line-height: 3rem;font-size: 1.2rem;text-align: center;border-radius: 0 0 8px 8px;background: #20c0fb;color: #fff;position: absolute;left: 0;bottom: 0;}
+.l_back,.l_sure{width: 50%;height: 3rem;line-height: 3rem;font-size: 1.2rem;text-align: center;position: absolute;bottom: 0;}
+.l_back{border-radius: 0 0 0 8px;background: #f2f2f2;color: #999;left: 0;}
+.l_sure{border-radius: 0 0 8px 0;background: #20c0fb;color: #fff;right: 0;}

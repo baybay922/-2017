@@ -1,0 +1,34 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body{background:#F3F5F4;}
+.rechargeMain{width:100%; height:auto; margin-top:1rem;}
+.iconImg{padding:0 1.5rem; height:4rem; line-height:4rem; border-bottom:1px #e6e6e6 solid; background:#fff;}
+.iconImgle{float:left;}
+.iconImgle img{width:10rem; vertical-align:middle;}
+.iconImgri{float:right; font-size:1.3rem; color:#666;}
+.iconImgri i{margin-left:.5rem;}
+.czText{padding:0 1.5rem; height:4rem; line-height:4rem; border-bottom:1px #e6e6e6 solid; background:#fff;}
+.czText span{font-size:1.2rem; color:#666;}
+.czText input{border:none; font-family:"Microsoft YaHei";}
+.rechargeMain p{font-size:1.2rem; text-indent:1.5rem; margin-top:1rem;}
+.rechargeMain p a{color:#20c0fb;}
+.czBtn{width:90%; height:3rem; background:#20c0fb; color:#fff; border-radius:5px; border:none; font-size:1.2rem; margin:4rem auto; display:block; 
+	font-family:"Microsoft YaHei";}
+
+
+/*-----支付限额页面-----*/
+.limitBox{width:100%; height:auto; background:#fff; padding:1rem 0;}
+.limitBoxTitle{width:93%; margin:0 auto;}
+.limitBoxTitle span{font-size: 1.3rem; margin-left:1rem; color:#333;}
+.limitBoxTitle img{width:11rem; vertical-align:middle; margin-top:-.6rem;}
+.limitForm{width:90%; margin:1rem auto 0;}
+.limitForm table{width:100%; text-align:center; border-bottom:1px #e5e5e5 solid; border-right:1px #e5e5e5 solid; position:relative;
+display:inline-block;}
+.limitForm table th, .limitForm table td{width:14%; height:2.4rem; vertical-align:middle; border-top:1px #e5e5e5 solid; border-left:1px #e5e5e5 solid;}
+.limitForm table th:nth-child(1), .limitForm table td:nth-child(1){width:20%;}
+.limitForm table .tableTr{background:#f2f2f2; color:#ff5e61;}
+.limitForm table th{color:#4b4b4b;}
+.limitForm table .limitTip{color:#4b4b4b; text-align:left; padding:1rem 1rem 0; border-bottom:none; line-height:1.5rem;}
+.limitForm table .limitTip2{color:#ff5e61; text-align:left; padding:0 1rem 1rem; border-top:none; line-height:1.5rem;}
+.limitTip3{width:90%; margin:.6rem auto 2.5rem; color:#ff5e61;}
+.limitTip3 i{font-size:1.4rem;}

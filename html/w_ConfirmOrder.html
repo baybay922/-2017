@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="cache-control" content="no-cache, must-revalidate">
+<meta http-equiv="expires" content="0">
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="format-detection" content="telephone=no"/>
+<meta name="msapplication-tap-highlight" content="no" />
+<link rel="stylesheet" href="css/lib/reset.css" type="text/css">
+<link rel="stylesheet" href="css/lib/sweetAlert.css">
+<link rel="stylesheet" href="css/ConfirmOrder.css">
+<script src="js/lib/jquery-1.11.0.min.js"></script>
+<script src="js/lib/sweetalert2.js"></script>
+<script src="js/ConfirmOrder.js"></script>
+<script type="text/javascript">
+//rem自适应字体大小方法
+var docEl = document.documentElement,
+resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+recalc = function() {
+    //设置根字体大小
+    docEl.style.fontSize = 10 * (docEl.clientWidth / 320) + 'px';
+};
+//绑定浏览器缩放与加载时间
+window.addEventListener(resizeEvt, recalc, false);
+document.addEventListener('DOMContentLoaded', recalc, false);
+</script>
+<title>确认订单</title>
+</head>
+<body class="l_NewScroll">
+	<section class="wrapper">
+		<header class="header">
+			<p>第003期</p>
+			<p>精选-奶山羊10只-按月分红</p>
+		</header>
+		<div class="details">
+			<div class="Profit">
+				<p>预计收益：15%</p>
+				<p>领养数量：1只</p>
+			</div>
+			<div class="term">
+				<p>领养期限：6个月</p>
+				<p>领养单价：6000元/只</p>
+			</div>
+		</div>
+		<div class="PreYield">
+			<p>预期收益额：</p>
+			<p>263.21元</p>	
+		</div>
+		<div class="PaymentMethod">
+			<p class="toPaid">
+				<span>待支付金额：</span>
+				<span>5000.00元</span>
+			</p>
+			<p class="balance">
+				<span>账户余额：</span>
+				<span class="remainder">1600<i class="checked"></i></span>
+			</p>
+		</div>
+		<div class="Surplus">
+			剩余金额将由银行卡支付；待支付 <span>5985.00</span>元
+		</div>
+		<div class="bankBox">
+			<p>
+				<img src="images/icon/yhIcon_01.png" alt="">
+			</p>
+			<p>
+				<span>尾号6688</span>
+				<span class="selected"></span>
+			</p>
+		</div>
+		<div class="inputBox">
+			<input type="password" class="pwd" id="pwd" placeholder="请输入支付密码">
+			<span class="openEye"></span>
+		</div>
+		<div class="Prompt">
+			<span>*</span> 支付密码未修改时默认为登录密码
+		</div>
+		<a href="#" class="surePay" id="surePay">确定支付</a>
+	</section>
+</body>
+</html>

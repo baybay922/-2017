@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+/*公共css*/
+.pjBlue{color: #20c0fb;}
+.pjBBlue{background: #20c0fb;color: #fff;border-radius: 2px;}
+.pjTip{color: #b0d3fb;}
+.pjWrong{color: #ff982b;}
+/*个人设置页css*/
+body,html{background: #f2f4f4;}
+header{width: 100%;height: auto;background: #7dd9fb;padding:4% 0 4% 6rem;position: relative;box-sizing: border-box;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;}
+header::after{content: "";position: absolute;width: 4rem;height: 4rem;left: 5%;top: 50%;margin-top: -2rem;background: url(../images/icon/binkCard_icon1.png) #43cafc center no-repeat;background-size: 50%;border-radius: 100%;}
+.l_final::after{background: url(../images/icon/binkCard_icon2.png) #43cafc center no-repeat;background-size: 50%;}
+header>ul{width: 100%;}
+header>ul>li{color: #fff;}
+header>ul>li:nth-of-type(1){height: 3rem;line-height: 3rem;font-size: 1.4rem;}
+header>ul>li:nth-of-type(2){height: auto;line-height: 2rem;font-size: 1rem;padding-right: 5%;}
+section{width: 90%;height: 3rem;border: solid 1px #dae1e3;margin: 2rem 0 0 5%;font-size: 1.2rem;line-height: 3rem;background: #fff;color: #333;text-indent: 5%;}
+section>input{width: 60%;height: 2rem;line-height: 2rem;border: none;margin-top: .5rem;}
+button{width: 90%;line-height: 3rem;font-size: 1.4rem;color: #fff;margin: 3rem 0 0 5%;}

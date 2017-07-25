@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="cache-control" content="no-cache, must-revalidate">
+<meta http-equiv="expires" content="0">
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="format-detection" content="telephone=no"/>
+<meta name="msapplication-tap-highlight" content="no" />
+<link rel="stylesheet" href="css/lib/reset.css" type="text/css">
+<link rel="stylesheet" href="css/purchaseHistory.css" type="text/css">
+<link rel="stylesheet" href="css/lib/sweetAlert.css" type="text/css">
+<script src="js/lib/jquery-1.11.0.min.js"></script>
+<script src="js/lib/sweetalert2.js"></script>
+<script src="js/main.js"></script>
+<script type="text/javascript">
+//rem自适应字体大小方法
+var docEl = document.documentElement,
+resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+recalc = function() {
+    //设置根字体大小
+    docEl.style.fontSize = 10 * (docEl.clientWidth / 320) + 'px';
+};
+//绑定浏览器缩放与加载时间
+window.addEventListener(resizeEvt, recalc, false);
+document.addEventListener('DOMContentLoaded', recalc, false);
+</script>
+<title>购买记录</title>
+</head>
+<body class="l_NewScroll">
+  <header>
+    <ul>
+      <li>第003期－精选－育肥羊20只，按月分红</li>
+      <li class="pjBlue">4000.00</li>
+      <li>购买金额</li>
+    </ul>
+  </header>
+  <section class="l_proLink pjBlue"> 领养合同及保单 </section>
+  <section class="l_mainInfo">
+      <ul>
+        <li>6个月</li>
+        <li>10.00元</li>
+        <li>3只</li>
+        <li>周期付息，到期还本</li>
+      </ul>
+      <ul>
+        <li>
+          <p>回款日期</p>
+          <p>应回本息</p>
+          <p>状态</p>
+        </li>
+        <li>
+          <p>2016.09.05</p>
+          <p>888.888.88</p>
+          <p>已还清</p>
+        </li>
+        <li>
+          <p>2016.09.05</p>
+          <p>888.888.88</p>
+          <p>已还清</p>
+        </li>
+        <li>
+          <p>2016.09.05</p>
+          <p>888.888.88</p>
+          <p>已还清</p>
+        </li>
+        <li>
+          <p>2016.09.05</p>
+          <p>888.888.88</p>
+          <p>已还清</p>
+        </li>
+        <li>
+          <p>2016.09.05</p>
+          <p>888.888.88</p>
+          <p>已还清</p>
+        </li>
+      </ul>
+  </section>
+
+</body>
+</html>

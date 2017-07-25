@@ -1,0 +1,22 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body{background:#F3F5F4;}
+.yqNumBox{width:92%; height:auto; background:url(../images/yqbj.png); background-size:100% 100%; margin:1.3rem auto; text-align:center;}
+.textP1{font-size:1.2rem; color:#fff; width:100%; margin-top:2rem; display:inline-block;}
+.textP2{font-size:2rem; color:#fff; width:100%; margin:1rem 0; display:inline-block;}
+.textP3{font-size:1rem; color:#fff; width:100%; margin-bottom:2rem; display:inline-block;}
+.listTitle{width:28%; margin:2.5rem auto 2rem; line-height:1px; border-left:10rem #b7b7b7 solid; border-right:10rem #b7b7b7 solid; text-align:center; 
+	font-size:1.4rem; color:#666;}
+.listMain{width:100%; text-align:center;}
+.ulBox{width:92%; height:3rem; line-height:3rem; background:#fff; border:1px #dadada solid; display:block; margin:0 auto;}
+.ulBox li{width:50%; float:left; color:#20c0fb;}
+.ulList{width:92%; height:4rem; line-height:4rem; background:#fff; border:1px #dadada solid; border-top:none; margin:0 auto; display:block; padding:0;}
+.ulList li{width:50%; float:left; color:#999; font-size:1.2rem;}
+
+.fenxBtn{width:92%; height:3rem; background:#20c0fb; color:#fff; border-radius:5px; border:none; font-size:1.2rem; margin:4rem auto; display:block; 
+	font-family:"Microsoft YaHei";}
+.zhezhao{background-color:rgba(0, 0, 0, 0.4); position:fixed; top:0; width:100%; height:100%; text-align:center; padding-top:3rem;}
+.zhezhao img{width:26rem;}
+
+
+

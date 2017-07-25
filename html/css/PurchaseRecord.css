@@ -1,0 +1,46 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body{background:#F3F5F4;}
+.clear_10{clear:both; height:10px;}
+.s_content{height:auto; background:#f2f2f2; overflow:hidden;}
+.headNav{width:100%; color:#999999; display:-webkit-box; background:#fff; position:fixed; top:0; left:0; z-index:999; 
+  -webkit-box-shadow:0 0 3px 3px #DCDCDC;  
+  -moz-box-shadow:0 0 3px 3px #DCDCDC;  
+  box-shadow:0 0 3px 3px #DCDCDC; }
+.headNav li{width:23%; padding:1rem 0; text-align:center; color:#20C0FB; font-size:1.2rem;}
+.headNav li a{color:#666;}
+.headNav li:first-child{margin-left:4%;}
+.headNav .cur{border-bottom:3px #20C0FB solid;}
+.headNav .cur a{color:#20C0FB; position:relative;}
+/*.headNav .cur:after{content:""; width:5.5rem; height:3px; position:absolute; background:#20C0FB; bottom:0; margin-left:-5.6rem;}*/
+.couponList{width:100%; margin-top:3.5rem;
+	height:calc(100% - 3.5rem ); 
+	-webkit-height:calc(100% - 3.5rem - 50px); 
+	-moz-height:calc(100% - 3.5rem - 50px);
+	-o-height: calc(100% - 3.5rem - 50px); 
+}
+.page{width:100%; height:100%; overflow-y:scroll; overflow:auto;}
+.page::-webkit-scrollbar{display:none;}
+
+.listbox{width:94%; margin:1rem auto 0; background:#fff; height:auto; padding:1rem 0 1.5rem; display:table; box-shadow:0 3px 3px #DCDCDC;}
+.listboxLe{width:100%; float:left;}
+.listboxLe dl{width:25%; float:left; text-align:center; }
+/*.listboxRi{width:30%; float:left; text-align:center;}*/
+.listboxLe-top{width:90%; margin:0 auto; font-size:1rem; color:#333; line-height:3rem; border-bottom:1px solid #DCDCDC;}
+.listboxLe-bot{padding:0 5%;}
+.listboxLe-bot .dl-01{width:20%; text-align:center;}
+.listboxLe-bot .dl-02{width:30%;}
+.listboxLe-bot .dl-04{text-align:right;}
+.listboxLe-bot dt{font-size:1.6rem; color:#666; margin:.5rem 0;}
+.listboxLe-bot dt i{font-size:1rem; color:#666;}
+.listboxLe-bot dt font{font-size:1rem; color:#666;}
+.listboxLe-bot dd{font-size:1rem; color:#999;}
+.listboxRi p{/*position:relative;*/line-height:7rem;}
+/*.listboxRi p img{width:7rem; position:absolute; right:6%;}*/
+.listboxLe button{width:6rem; height:2rem; font-family:'微软雅黑'; background:none; margin-top:1rem;
+/*position:absolute; margin-top:5.5rem;right:10%; */}
+/*.listboxLe .yjqBtn{background:#CCC;}
+.listboxLe .imgIcon{width:5.5rem; right:11%; z-index:1;}*/
+.listboxLe .redBtn{border:1px #ff7a7a solid; border-radius:3px; color:#ff7a7a;}
+.listboxLe .blueBtn{border:1px #20c0fb solid; border-radius:3px; color:#20c0fb;}
+.listboxLe .grayBtn{border:1px #999 solid; border-radius:3px; color:#999;}

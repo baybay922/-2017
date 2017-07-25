@@ -1,0 +1,72 @@
+
+/*!
+ * ConfirmOrder.css v1.0.0
+ * producer:bayaby
+ * Date: 2017-2-23 10:34;
+ * Modification personnel：~
+ * Modified time：~
+ */
+
+body,html{width: 100%;height: 100%;position: relative;background: #f2f4f4;}
+.wrapper{width:100%;height:auto;position:relative;overflow: hidden;background: #f2f4f4;}
+.header{width: 100%;height: auto;background: #51c9f5;padding: 1.5rem 0;text-indent: 2rem;color: #fff;font-size: 1.4rem;font-weight: bold;line-height: 2.2rem;}
+.header p:nth-child(2){font-size: 1.2rem;font-weight: normal;color: #fffefe;}
+.details{width: 100%;height: auto;border-bottom: 1px solid #dae1e3;display: -webkit-box;background: #fff;}
+.details div{width: 40%;padding:1rem 5%;line-height: 2rem;font-size: 1.2rem;color: #666;}
+.details div:nth-child(2){text-align: right;}
+.PreYield{width: 100%;height: 3rem;border-bottom: 1px solid #dae1e3;display: -webkit-box;margin-bottom: 1.5rem;background: #fff;}
+.PreYield p{width: 40%;padding: 0 5%;line-height: 3rem;font-size: 1.2rem;color: #666;}
+.PreYield p:nth-child(2),.PaymentMethod p span:nth-child(2){text-align: right;color: #e86200;}
+.PaymentMethod{width: 100%;height: auto;background: #fff;font-size: 1.2rem;}
+.PaymentMethod p{border-bottom: 1px solid #dae1e3;height: 3rem;line-height: 3rem;width: 100%;display: -webkit-box;}
+.PaymentMethod p span{width: 40%;padding: 0 5%;display: block;position: relative;}
+
+.remainder{width: 30%!important;}
+.checked{width: 1.5rem;height: 1.5rem;position: absolute;right: -1.6rem;top: .8rem;display: block;border-radius: 5px;background:#20c0fb url(../images/icon/icon_check2.png) no-repeat center center;background-size: 1.2rem 1rem;}
+.unchecked{background: #20c0fb!important;}
+.PaymentMethod span{color: #666;}
+.Surplus{width: 100%;height: 3rem;line-height: 3rem;text-indent: 5%;font-size: 1rem;color: #666;}
+.Surplus span{color: #e97521;}
+.bankBox{width: 100%;height: 3rem;line-height: 3rem;display: -webkit-box;background: #fff;border-bottom: 1px solid #dae1e3;font-size: 1.2rem;color: #666;margin-bottom: 1.5rem;}
+.bankBox p:nth-child(1){width: 20%;padding: 0 5%;}
+.bankBox p:nth-child(2){width: 65%;text-align: right;display: -webkit-box;}
+.bankBox p img{width: 100%;height: auto;margin-top: .5rem;}
+.bankBox p:nth-child(2) span:nth-child(1){display: block;width: 85%;}
+.selected{width: 1.5rem;height: 1.5rem;background:#20c0fb url(../images/icon/icon_check2.png) no-repeat center center;background-size: 1.2rem 1rem;display: block;border-radius: 5px;margin-top: .8rem;margin-left: 1.3rem;}
+.unselected{background:#20c0fb!important;}
+.inputBox{width: 100%;height: 3rem;line-height: 3rem;display: -webkit-box;border-bottom: 1px solid #dae1e3;background: #fff;position: relative;}
+.pwd{width: 90%;height: 100%;border:none;outline: none;font-size: 1.2rem;text-indent: 1rem;display: block;}
+.openEye{width: 2rem;height: 2rem;position: absolute;right: 5%;top: .5rem;background: url(../images/icon/icon_eyes.png) center -1.2rem no-repeat;background-size: 1.8rem;}
+.closeEye{width: 2rem;height: 2rem;position: absolute;right: 5%;top: .5rem;background: url(../images/icon/icon_eyes.png) center .5rem no-repeat;background-size: 1.8rem;}
+.Prompt{width: 100%;height: 3rem;line-height: 3rem;margin-bottom: 3rem;text-indent: 1rem;color: #666;}
+.Prompt span{color: #20c0fb;}
+.surePay{width: 90%;height: 3rem;line-height: 3rem;text-align: center;color: #fff;background: #20c0fb;border-radius: 3px;margin: 1rem auto;display: block;font-size: 1.2rem;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

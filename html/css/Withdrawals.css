@@ -1,0 +1,25 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body{background:#F3F5F4;}
+.withdrawalMain{width:100%; height:auto;}
+.topMain{width:100%; height:auto; background:#51c9f5; padding:1.5rem 0; text-align:center;}
+.topNum{font-size:1.8rem; color:#fff;}
+.topText{font-size:1.2rem; color:#fff;}
+.iconImg{padding:0 1.5rem; height:4rem; line-height:4rem; border-bottom:1px #e6e6e6 solid; background:#fff; margin-bottom:1rem;}
+.iconImgle{float:left;}
+.iconImgle img{width:10rem; vertical-align:middle;}
+.iconImgri{float:right; font-size:1.3rem; color:#666;}
+.iconImgri i{margin-left:.5rem;}
+.zhinfo{float:right;}
+.zhinfo a{color:#666;}
+.zhinfo a img{width:1rem; vertical-align:middle; margin-top:-.3rem;}
+.txText{padding:0 1.5rem; height:4rem; line-height:4rem; border-bottom:1px #e6e6e6 solid; background:#fff;}
+.txText span{font-size:1.2rem; color:#666;}
+.txText input{border:none; font-family:"Microsoft YaHei";}
+.txText .spanRi{float:right; color:#20c0fb;}
+
+.qrBtn{width:90%; height:3rem; background:#20c0fb; color:#fff; border-radius:5px; border:none; font-size:1.2rem; margin:4rem auto; display:block; 
+	font-family:"Microsoft YaHei";}
+
+
+

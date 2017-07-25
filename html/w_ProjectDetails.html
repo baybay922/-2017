@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="cache-control" content="no-cache, must-revalidate">
+<meta http-equiv="expires" content="0">
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="format-detection" content="telephone=no"/>
+<meta name="msapplication-tap-highlight" content="no" />
+<link rel="stylesheet" href="css/lib/reset.css" type="text/css">
+<link rel="stylesheet" href="css/ProjectDetails.css">
+<script src="js/lib/jquery-1.11.0.min.js"></script>
+<script src="js/ProjectDetails.js"></script>
+<script type="text/javascript">
+//rem自适应字体大小方法
+var docEl = document.documentElement,
+resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+recalc = function() {
+    //设置根字体大小
+    docEl.style.fontSize = 10 * (docEl.clientWidth / 320) + 'px';
+};
+//绑定浏览器缩放与加载时间
+window.addEventListener(resizeEvt, recalc, false);
+document.addEventListener('DOMContentLoaded', recalc, false);
+</script>
+<title>首页</title>
+</head>
+<body class="l_NewScroll">
+<section class="wrapper">
+	<div class="describe">
+		<p>领养项目描述</p>
+		<article>
+			
+			品种是提高养羊经济效益的首要条件，品种的好坏直接决定了羊的生产性能、饲料消耗量、饲养周期和料肉比等。众多试验表明，饲养优良的杂种羊，可使母羊每窝断乳仔羊增加l～2头，增重提高l0％～30％，饲料利用率提高10％～l5％。好的品种比本地羊生长速度快、饲养周期短，可提高经济效益l0％～l2％。任何的成功一定有方法，失败也总有原因， 养羊失败的原因,归根结底还在饲养技术管理上，没有掌握养羊的关键技术就匆匆做起来了，殊不知，养殖这行业“要想富，先技术”
+		</article>
+	</div>
+	<div class="describe"> 
+		<p>项目图片</p>
+		<ul class="imgList">
+			<li><img src="images/1.png" alt=""></li>
+			<li><img src="images/img.png" alt=""></li>
+			<li><img src="images/img.png" alt=""></li>
+		</ul>
+	</div>
+</section>
+</body>
+</html>

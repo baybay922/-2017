@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="cache-control" content="no-cache, must-revalidate">
+<meta http-equiv="expires" content="0">
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="format-detection" content="telephone=no"/>
+<meta name="msapplication-tap-highlight" content="no" />
+<link rel="stylesheet" href="css/lib/reset.css" type="text/css">
+<link rel="stylesheet" href="css/lib/sweetAlert.css">
+<link rel="stylesheet" href="css/productDetails.css">
+<script src="js/lib/jquery-1.11.0.min.js"></script>
+<script src="js/lib/sweetalert2.js"></script>
+<script src="js/productDetails.js"></script>
+<script type="text/javascript">
+//rem自适应字体大小方法
+var docEl = document.documentElement,
+resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+recalc = function() {
+    //设置根字体大小
+    docEl.style.fontSize = 10 * (docEl.clientWidth / 320) + 'px';
+};
+//绑定浏览器缩放与加载时间
+window.addEventListener(resizeEvt, recalc, false);
+document.addEventListener('DOMContentLoaded', recalc, false);
+</script>
+<title>产品详情</title>
+</head>
+<body class="l_NewScroll">
+	<section class="wrapper">
+		<div class="header">
+			<dl class="head">
+				<dt class="title text-overflow">第003期－精选－育肥羊20只，按月分红</dt>
+				<dd class="picture sellOut">
+					<div>
+						<img src="images/breed.png" alt="">
+						<span>品种：关中羊</span>
+					</div>
+					<div>
+						<p class="Expect">
+							<span><i>14%</i></br>预计收益</span>
+						</p>
+					</div>
+				</dd>
+			</dl>
+			<div class="condition">
+				<div class="Price">
+					<p><span>￥6000</span>/只</p>
+					<p>领养价格</p>
+				</div>
+				<div class="Month">
+					<p><span>6</span>个月</p>
+					<p>领养期限</p>
+				</div>
+				<div class="mode">
+					<p><span>按月分红</span></p>
+					<p>分红方式</p>
+				</div>
+			</div>
+		</div>
+		<ul class="detailsList">
+			<li>项目详情</li>
+			<li>领养记录</li>
+			<li>领养帮助</li>
+		</ul>
+		<ul class="purchase">
+			<li class="AdoptionQuantity">
+				<p>
+					<span>领羊数量</span>
+					<span class="Surplus" data-last="29">(剩余29只／总数100只)</span>
+				</p>
+				<p class="InputBox">
+					<span class="reduce" id="reduce">-</span>
+					<input type="tel" class="number" id="number" value="1">
+					<span class="add" id="add">+</span>
+				</p>
+			</li>
+			<li class="Total">
+				<p>领养总额</p>
+				<p>8888.00 元</p>
+			</li>
+			<li class="Expected ">
+				<p>预期收益额</p>
+				<p>18888.00 元</p>
+			</li>
+		</ul>
+		<div class="Agreement">
+			<!-- <p class="unSelected Selected" id="unSelected"></p> -->
+			<p><span>售</span>由蚂蚁沟养殖合作社负责发货及售后</p>
+		</div>
+		<a href="#" class="ImmediateAdoption" id="ImmediateAdoption">立即领养</a>
+	</section>
+	<div class="maskBox">
+		<div class="mask">
+			<h2>领养帮助</h2>
+			<p><span>预计收益：</span>预期收益是指该羊为您带来的年收益率。</p>
+			<p><span>分红方式：</span>按月分红的方式为“周期付利息，到期还本金”。</p>
+			<span class="close" id="close"></span>
+		</div>
+	</div>
+</body>
+</html>

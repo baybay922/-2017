@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+/*公共css*/
+.pjBlue{color: #20c0fb;}
+.pjBBlue{background: #20c0fb;color: #fff;border-radius: 2px;}
+.pjTip{color: #b0d3fb;}
+.pjWrong{color: #ff982b;}
+/*个人设置页css*/
+body,html{background: #f2f4f4;}
+header{width: 90%;height: 6rem;margin: 2rem 0 0 5%;background: url(../images/icon/bankCard_icon2.png) 50% 50% no-repeat;background-size: cover;border-radius: 6px;position: relative;}
+header>img{height: 3rem;position: absolute;top: 1.5rem;left: 5%;}
+header>span{position: absolute;height: 2rem;line-height: 2rem;right: 5%;top: 50%;margin-top: -1rem;color: #fff;}
+section{width: 90%;height: auto;margin: 3rem 0 0 5%;font-size: 1rem;line-height: 2rem;color: #666;}
+section>h3{width: 10rem;height: 3rem;line-height: 3rem;text-align: center;border-radius: 3rem;background:#20c0fb;color: #fff;margin-bottom: 1rem;}

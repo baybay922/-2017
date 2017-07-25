@@ -1,0 +1,15 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body{background:#F3F5F4;}
+.detailsMain{width:100%; height:auto; text-align:center; background:#fff; padding:1rem 0; border-bottom:1px #f2f2f2 solid;}
+.detailsMain p{width:92%; margin:0 auto; height:3rem; line-height:3rem; font-size:1.2rem; color:#333;}
+.detailsMain p img{width:3rem; vertical-align:middle; margin-top:-.3rem; margin-right:.5rem;}
+.detailsMain .detailsP2{color:#20c0fb; margin-top:1rem;}
+.detailsMain .detailsP2 i{font-size:2.4rem;}
+.detailsMain .detailsP3{color:#666;}
+.detailsList{width:100%; height:auto; background:#fff;}
+.detailsList ul{width:; padding:0 4%; height:3.5rem; line-height:3.5rem; margin:0 auto; border-bottom:1px #dcdcdc solid;}
+.detailsList ul li{width:50%; float:left; color:#333; font-size:1.2rem;}
+.detailsList ul li:last-child{text-align:right;}
+.detailsList ul .color6{color:#666;}
+.detailsList ul .colorblue{color:#20c0fb;}

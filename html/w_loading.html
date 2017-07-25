@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="cache-control" content="no-cache, must-revalidate">
+<meta http-equiv="expires" content="0">
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="format-detection" content="telephone=no"/>
+<meta name="msapplication-tap-highlight" content="no" />
+<link rel="stylesheet" href="css/lib/reset.css" type="text/css">
+<script type="text/javascript">
+//rem自适应字体大小方法
+var docEl = document.documentElement,
+resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+recalc = function() {
+    //设置根字体大小
+    docEl.style.fontSize = 10 * (docEl.clientWidth / 320) + 'px';
+};
+//绑定浏览器缩放与加载时间
+window.addEventListener(resizeEvt, recalc, false);
+document.addEventListener('DOMContentLoaded', recalc, false);
+</script>
+<title>title</title>
+</head>
+<body class="l_NewScroll">
+	<div class="loading">
+		<img src="images/loading.gif" alt="">
+	</div>
+
+	<script>
+		var str = "zxbbbcvbnm";
+		console.log(str.replace("bbb","vvvvvvvvvvvvv"));
+
+
+		function fn1(){
+			var age = 20;
+			function fn2(){
+				alert(age);
+			}
+			return fn2;
+		}
+		var tem = fn1();
+		var age = 99;
+		//tem();
+		//
+		function Girl(name, bf){
+			var secret = bf;
+			this.name = name;
+			this.showlove = function(){
+				return secret;
+			}
+			this.movelove = function(){
+				secret = "薛攀"
+			}
+		}
+		var girl = new Girl("林黛玉", "贾宝玉");
+		//alert(girl.name +"喜欢"+ girl.showlove()); //林黛玉喜欢贾宝玉
+		girl.movelove();
+		//alert(girl.name +"喜欢"+ girl.showlove());
+		//
+		//
+		function tiger(){
+			this.brek = function(){
+				alert("我是百兽之王");
+			}
+		}
+		function cat(){
+			this.climb = function(){
+				alert("我会爬树");
+			}
+		}
+		tiger.prototype = new cat();
+		var bbb = new tiger();
+		//bbb.climb();
+
+		window.name = 'GY';
+		var a = 100;
+		function T(){
+			name = 'LEE';
+			alert(name);
+			alert(a);
+		}
+		T();
+		alert(window.name)
+	</script>
+</body>
+</html>

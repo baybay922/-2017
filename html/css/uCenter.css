@@ -1,0 +1,19 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body{background:#F3F5F4;}
+.account-head{width:100%;background:#20c0fb; color:#fff;}
+.head-p1{width:100%; font-size:1.2rem; margin-top:1rem; display:inline-block;}
+.head-p1 i img{width:2.5rem; vertical-align:middle; margin:-.4rem .7rem 0 1.5rem; padding:0;}
+.head-p2{text-align:center; margin-top:1.5rem; font-size:1.2rem;}
+.head-p3{text-align:center; margin-top:1rem; font-size:2rem;}
+.head-p4{text-align:center; padding:1rem 0 1.5rem; font-size:1rem;}
+.account-balance{width:100%; padding:1rem 0; border-bottom:1px #dcdcdc solid; display:inline-block; background:#fff;}
+.balanceLe{width:50%; float:left; text-align:center;}
+.balanceRi{width:49.7%; float:left; text-align:center; border-left:1px #dcdcdc solid;}
+.balancep1{font-size:1rem; color:#333; line-height:2rem;}
+.balancep2{font-size:1.3rem; color:#333;}
+.account-box{width:100%; height:auto; background:#fff; margin-top:1rem;}
+.account-box .dlBox{width:100%; display:inline-block;}
+.account-box .dlBox dl{width:33.33%; float:left; text-align:center; padding:1rem 0;}
+.account-box .dlBox dl dt{height:4rem;}
+.account-box .dlBox dl dt img{height:3rem;}

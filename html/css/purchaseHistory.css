@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+/*公共css*/
+.pjBlue{color: #20c0fb;}
+.pjBBlue{background: #20c0fb;color: #fff;border-radius: 2px;}
+.pjTip{color: #b0d3fb;}
+.pjWrong{color: #ff982b;}
+/*购买记录页css*/
+body,html{background: #fafafa;}
+header{width: 100%;height: 8rem;background: #fff;position: relative;box-shadow: 0 0 6px 2px #f2f2f2;-webkit-box-shadow: 0 0 6px 2px #f2f2f2;-moz-box-shadow: 0 0 6px 2px #f2f2f2;}
+header::after{content: "";position: absolute;right: 0;top: 50%;width: 24%;height: 6rem;margin-top: -3rem;background: url(../images/icon/purchaseHistory_icon1.png) center no-repeat;background-size: contain;}
+header>ul{width: 100%;}
+header>ul>li{width: 100%;text-align: center;}
+header>ul>li:nth-of-type(1){height: 3rem;line-height: 3rem;font-size: 1rem;color: #333;}
+header>ul>li:nth-of-type(2){height: 2rem;font-size: 1.6rem;}
+header>ul>li:nth-of-type(2)::after{content: "元";color: #666;font-size: 1rem;padding-left: .5rem;line-height: 2rem;display: inline-block;}
+header>ul>li:nth-of-type(3){height: 2.5rem;line-height: 2.5rem;font-size: 1rem;color: #999;}
+.l_proLink{width: 100%;height: 3rem;line-height: 3rem;background: #fff;margin: 6px 0 2rem 0;padding: 0 5% 0 3.2rem;position: relative;box-sizing: border-box;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-webkit-box-shadow: 0 0 8px 3px #f1f1f1;-moz-box-shadow: 0 0 8px 3px #f1f1f1;box-shadow: 0 0 8px 3px #f1f1f1;}
+.l_proLink::before{content: "";position: absolute;width: 1.2rem;height: 1.2rem;top: .9rem;left: 5%;background: url(../images/icon/purchaseHistory_icon2.png) top left no-repeat;background-size: 6rem 1.2rem;}
+.l_mainInfo{width: 100%;height: auto;}
+.l_mainInfo>ul:nth-of-type(1)>li{width: 100%;height: 3rem;line-height: 3rem;background: #fff;color:#333;font-size: 1.2rem;padding: 0 5% 0 3.2rem;position: relative;box-sizing: border-box;-webkit-box-sizing: border-box;-moz-box-sizing: border-box; border-bottom: solid 1px #dcdcdc;text-align: right;}
+.l_mainInfo>ul:nth-of-type(1)>li:last-child{border-bottom: solid 1px #f1f1f1;}
+.l_mainInfo>ul:nth-of-type(1)>li::before{content: "";position: absolute;width: 1.2rem;height: 1.2rem;top: .9rem;left: 5%;}
+.l_mainInfo>ul:nth-of-type(1)>li::after{position: absolute;width: 50%;height: 2rem;top: .5rem;left: 3.2rem;line-height: 2rem;text-align: -webkit-left;}
+.l_mainInfo>ul:nth-of-type(1)>li:nth-of-type(1)::before{background: url(../images/icon/purchaseHistory_icon2.png) 25% no-repeat;background-size: 6rem 1.2rem;}
+.l_mainInfo>ul:nth-of-type(1)>li:nth-of-type(2)::before{background: url(../images/icon/purchaseHistory_icon2.png) 50% no-repeat;background-size: 6rem 1.2rem;}
+.l_mainInfo>ul:nth-of-type(1)>li:nth-of-type(3)::before{background: url(../images/icon/purchaseHistory_icon2.png) 75% no-repeat;background-size: 6rem 1.2rem;}
+.l_mainInfo>ul:nth-of-type(1)>li:nth-of-type(4)::before{background: url(../images/icon/purchaseHistory_icon2.png) 100% no-repeat;background-size: 6rem 1.2rem;}
+.l_mainInfo>ul:nth-of-type(1)>li:nth-of-type(1)::after{content: "领养时间";}
+.l_mainInfo>ul:nth-of-type(1)>li:nth-of-type(2)::after{content: "已获收益";}
+.l_mainInfo>ul:nth-of-type(1)>li:nth-of-type(3)::after{content: "领养数量";}
+.l_mainInfo>ul:nth-of-type(1)>li:nth-of-type(4)::after{content: "分红方式";}
+
+.l_mainInfo>ul:nth-of-type(2){width: 100%;height: auto;margin-top: 3rem;}
+.l_mainInfo>ul:nth-of-type(2)>li{width: 100%;height: 3rem;line-height: 3rem;background: #fff;color:#666;font-size: 1.2rem;padding: 0 5% ;position: relative;box-sizing: border-box;-webkit-box-sizing: border-box;-moz-box-sizing: border-box; border-bottom: solid 1px #e6e6e6;text-align: center;}
+.l_mainInfo>ul:nth-of-type(2)>li>p{position: absolute;top: 0;}
+.l_mainInfo>ul:nth-of-type(2)>li>p:nth-of-type(1){width: 6rem;left: 5%;}
+.l_mainInfo>ul:nth-of-type(2)>li>p:nth-of-type(2){width: 50%;left: 28%;}
+.l_mainInfo>ul:nth-of-type(2)>li>p:nth-of-type(3){width: 4rem;right: 5%;}
